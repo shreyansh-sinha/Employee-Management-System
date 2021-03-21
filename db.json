@@ -1,0 +1,44 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "firstName": "Shreyansh",
+      "lastName": "Sinha",
+      "email": "shreyansh_b170390cs@nitc.ac.in",
+      "salary": "11111",
+      "date": "01-01-2021"
+    },
+    {
+      "id": 2,
+      "firstName": "Adrienne",
+      "lastName": "Doak",
+      "email": "adrienne@example.com",
+      "salary": "80000",
+      "date": "2019-04-17"
+    },
+    {
+      "id": 3,
+      "firstName": "Rolf",
+      "lastName": "Hedgal",
+      "email": "rolf@example.com",
+      "salary": "80000",
+      "date": "2019-05-01"
+    },
+    {
+      "id": 4,
+      "firstName": "Kent",
+      "lastName": "Rosner",
+      "email": "kent@example.com",
+      "salary": "56000",
+      "date": "2019-05-03"
+    },
+    {
+      "id": 5,
+      "firstName": "Arsenio",
+      "lastName": "Grant",
+      "email": "grant@example.com",
+      "salary": "120000",
+      "date": "2019-05-13"
+    }
+  ]
+}
