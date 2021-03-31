@@ -130,11 +130,12 @@ const App = () => {
         .put(`http://localhost:3001/employee/${id}`, newObject)
         .then(response => {
             setEmployee(employee.map(emp => emp.id !== id ? emp : response.data))
-            setfname('')
-            setlname('')
-            setemail('')
-            setsalary('')
-            setdate('')
+            settempfname('')
+            settemplname('')
+            settempemail('')
+            settempsalary('')
+            settempdate('')
+            setEditing(false)
 
         })
     }
@@ -202,6 +203,7 @@ const App = () => {
 
                 {
                     editing === true ? 
+
                     <div>
                     <form onSubmit = {updateData}>
                     <input type="text" value = {tempfname} onChange = {editfName} placeholder = "First Name"/>
@@ -217,6 +219,7 @@ const App = () => {
                     <br/>
                     <button type = "submit"> Update </button>
                 </form>
+                	
                     </div> : <div></div>
                 }
             </div>
